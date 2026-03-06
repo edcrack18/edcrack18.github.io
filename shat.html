@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chat simple</title>
+</head>
+<body>
+  <h2>Chat</h2>
+  <input id="nombre" placeholder="Tu nombre" />
+  <input id="mensaje" placeholder="Escribe algo..." />
+  <button onclick="enviarMensaje()">Enviar</button>
+  <div id="chat"></div>
+
+  <!-- Firebase con compatibilidad antigua -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-database-compat.js"></script>
+
+  <script src="sis.js"></script>
+</body>
+</html>
